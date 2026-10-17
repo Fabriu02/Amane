@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 Acerca de Amane
+##  Acerca de Amane
 
 **Amane** nace de la inspiración en herramientas ligeras y directas como *Trackma*, pero dando un paso adelante en una de las mayores necesidades de la comunidad: **el descubrimiento de contenido y el intercambio cercano de recomendaciones**.
 
