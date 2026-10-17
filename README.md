@@ -45,7 +45,7 @@
 
 ---
 
-## 🏗️ Arquitectura y Metodología
+##  Arquitectura y Metodología
 
 ### Spec-Driven Development (SDD)
 Este proyecto sigue una metodología estricta de **desarrollo guiado por especificaciones**:
@@ -53,19 +53,19 @@ Este proyecto sigue una metodología estricta de **desarrollo guiado por especif
 2. **Nivel 2 — `architect.md` (El CÓMO):** Diseño arquitectónico, contratos de API, base de datos y patrones de resiliencia.
 3. **Nivel 3 — Implementación:** Construcción verificada y guiada por las especificaciones.
 
-📄 **Puedes consultar la especificación funcional completa aquí:**  
-👉 **[Ver requirements.md](./specs/requirements.md)**
+ **Puedes consultar la especificación funcional completa aquí:**  
+ **[Ver requirements.md](./specs/requirements.md)**
 
 ### Arquitectura Hexagonal & Enfoque API-First
 El núcleo del sistema en **Java** está completamente desacoplado de las interfaces de entrega:
 * **Core de Negocio:** Entidades puras, reglas de validación y casos de uso.
 * **Múltiples Clientes soportados por diseño:**
-  * 🖥️ Cliente Nativo / Web (V1.0).
-  * 🤖 **Bot Oficial de Discord (V2.0):** Podrá ejecutar comandos (`/recomendar`, `/viendo`, `/novedades`) consumiendo exactamente los mismos puertos y lógica del sistema.
+  *  Cliente Nativo / Web (V1.0).
+  *  **Bot Oficial de Discord (V2.0):** Podrá ejecutar comandos (`/recomendar`, `/viendo`, `/novedades`) consumiendo exactamente los mismos puertos y lógica del sistema.
 
 ---
 
-## 🚫 Fuera de Alcance (Scope Boundaries)
+##  Fuera de Alcance (Scope Boundaries)
 
 Para mantener la aplicación ágil, enfocada y mantenible:
 * **NO** es una plataforma de streaming (no aloja ni reproduce archivos de video).
@@ -75,7 +75,7 @@ Para mantener la aplicación ágil, enfocada y mantenible:
 
 ---
 
-## 🗺️ Hoja de Ruta (Roadmap)
+##  Hoja de Ruta (Roadmap)
 
 ```mermaid
 flowchart LR
