@@ -1,4 +1,4 @@
-# 🌸 Amane (雨音)
+#  Amane 
 
 > **Un tracker de anime minimalista y centrado en el descubrimiento, recomendaciones entre amigos y seguimiento de novedades.**
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 Acerca de Amane
+##  Acerca de Amane
 
 **Amane** nace de la inspiración en herramientas ligeras y directas como *Trackma*, pero dando un paso adelante en una de las mayores necesidades de la comunidad: **el descubrimiento de contenido y el intercambio cercano de recomendaciones**.
 
@@ -19,33 +19,33 @@
 
 ---
 
-## 🌟 Pilares y Funcionalidades Principales
+##  Pilares y Funcionalidades Principales
 
-### ⚡ 1. Tracker Minimalista y Ágil
+###  1. Tracker Minimalista y Ágil
 * Control de estados canónicos: `Plan to Watch`, `Watching`, `Completed`, `On Hold` y `Dropped`.
 * Actualización rápida de progreso de episodios (`+1` instantáneo sin recargas molestas).
 * Puntuación personal (escala 1 a 10) y notas privadas.
 
-### 🔁 2. Sistema de Rewatch e Índice de Revisitado (Rewatchability)
+###  2. Sistema de Rewatch e Índice de Revisitado (Rewatchability)
 * **Contador de revisualizaciones:** Registra cuántas veces has vuelto a ver tus animes favoritos (`vecesRevisto`).
 * **Índice de Revisitado Comunitario:** Métrica porcentual que mide qué tan atractiva es una serie para ser vista nuevamente según el comportamiento de la comunidad.
 
-### 💌 3. Círculo Social y Buzón de Recomendaciones
+###  3. Círculo Social y Buzón de Recomendaciones
 * Amistades bilaterales consentidas.
 * Envío de recomendaciones directas con nota personalizada explicativa (*"Tenés que ver esto por la animación"*).
 * Aceptación en un clic: la recomendación se transfiere directamente a tu lista de `Plan to Watch`.
 
-### 🧠 4. Motor de Descubrimiento por Afinidad
+###  4. Motor de Descubrimiento por Afinidad
 * Recomendaciones automáticas basadas en tus mejores calificaciones, géneros preferidos y estudios de animación.
 * Algoritmo con **explicabilidad**: cada sugerencia detalla el por qué se te recomienda.
 
-### 🔔 5. Feed Inteligente de Novedades y Secuelas
+###  5. Feed Inteligente de Novedades y Secuelas
 * Alertas automáticas cuando se anuncian o estrenan nuevas temporadas, películas o spin-offs de las franquicias que ya viste o estás siguiendo.
 * Tendencias y destacados de la temporada actual.
 
 ---
 
-## 🏗️ Arquitectura y Metodología
+##  Arquitectura y Metodología
 
 ### Spec-Driven Development (SDD)
 Este proyecto sigue una metodología estricta de **desarrollo guiado por especificaciones**:
@@ -53,19 +53,19 @@ Este proyecto sigue una metodología estricta de **desarrollo guiado por especif
 2. **Nivel 2 — `architect.md` (El CÓMO):** Diseño arquitectónico, contratos de API, base de datos y patrones de resiliencia.
 3. **Nivel 3 — Implementación:** Construcción verificada y guiada por las especificaciones.
 
-📄 **Puedes consultar la especificación funcional completa aquí:**  
-👉 **[Ver requirements.md](./specs/requirements.md)**
+ **Puedes consultar la especificación funcional completa aquí:**  
+**[Ver requirements.md](./specs/requirements.md)**
 
 ### Arquitectura Hexagonal & Enfoque API-First
 El núcleo del sistema en **Java** está completamente desacoplado de las interfaces de entrega:
 * **Core de Negocio:** Entidades puras, reglas de validación y casos de uso.
 * **Múltiples Clientes soportados por diseño:**
-  * 🖥️ Cliente Nativo / Web (V1.0).
-  * 🤖 **Bot Oficial de Discord (V2.0):** Podrá ejecutar comandos (`/recomendar`, `/viendo`, `/novedades`) consumiendo exactamente los mismos puertos y lógica del sistema.
+  *  Cliente Nativo / Web (V1.0).
+  *  **Bot Oficial de Discord (V2.0):** Podrá ejecutar comandos (`/recomendar`, `/viendo`, `/novedades`) consumiendo exactamente los mismos puertos y lógica del sistema.
 
 ---
 
-## 🚫 Fuera de Alcance (Scope Boundaries)
+##  Fuera de Alcance (Scope Boundaries)
 
 Para mantener la aplicación ágil, enfocada y mantenible:
 * **NO** es una plataforma de streaming (no aloja ni reproduce archivos de video).
@@ -75,7 +75,7 @@ Para mantener la aplicación ágil, enfocada y mantenible:
 
 ---
 
-## 🗺️ Hoja de Ruta (Roadmap)
+##  Hoja de Ruta (Roadmap)
 
 ```mermaid
 flowchart LR
